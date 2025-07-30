@@ -1,0 +1,23 @@
+# Schema Overview
+
+- customerid: str
+- gender: str
+- seniorcitizen: int
+- partner: binary
+- dependents: binary
+- tenure: int
+- phoneservice: binary
+- multiplelines: category
+- internetservice: category
+- onlinesecurity: category
+- onlinebackup: category
+- deviceprotection: category
+- techsupport: category
+- streamingtv: category
+- streamingmovies: category
+- contract: category
+- paperlessbilling: binary
+- paymentmethod: category
+- monthlycharges: float
+- totalcharges: float
+- churn: binary
